@@ -1,0 +1,36 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Explicitly declare text files
+*.cs text diff=csharp
+*.ts text diff=typescript
+*.tsx text diff=typescript
+*.js text diff=javascript
+*.jsx text diff=javascript
+*.css text
+*.scss text
+*.html text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+
+# Treat solution and project files as text
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vbproj text eol=crlf
+*.fsproj text eol=crlf
+*.dbproj text eol=crlf
+
+# Images / binaries should be treated as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Font files
+*.ttf binary
+*.woff binary
+*.woff2 binary

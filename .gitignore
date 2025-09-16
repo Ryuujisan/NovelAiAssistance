@@ -525,3 +525,7 @@ out/
 .svelte-kit/
 .storybook/
 coverage/
+
+.zencoder/
+
+API/seedDb.json
